@@ -1,0 +1,10 @@
+.place__type {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 48px 0;
+}
+@media all and (max-width: 680px) {
+    .place__type {
+        margin:0 0 0 16px;
+    }
+}

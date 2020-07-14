@@ -1,0 +1,10 @@
+.place__description {
+    display: flex;
+    flex-direction: row;
+}
+
+@media all and (max-width: 680px) {
+    .place__description {
+        flex-direction: column;
+    }
+}

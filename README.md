@@ -7,4 +7,4 @@ Alt-H1
 
 Следующим этапом необходимо сдлать переключение языков актвным.
 
-Ссылка на GitHub: https://github.com/DaryaLyutova/russian-travel.
+Ссылка на работу в GitHub: https://github.com/DaryaLyutova/russian-travel.

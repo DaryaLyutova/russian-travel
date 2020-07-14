@@ -1,0 +1,10 @@
+.cover__overlay {
+    display: flex;
+    background-size: cover;
+    background: rgba(42, 44, 47, 0.4);
+    width: 100%;
+}
+
+.cover__overlay:hover {
+    background: rgba(42, 44, 47, 0.8);
+}
