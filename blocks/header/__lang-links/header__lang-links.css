@@ -1,4 +1,17 @@
 .header__lang-links {
     display: flex;
     align-items: flex-end;
+    padding-right: 48px;
+}
+
+@media all and (max-width: 768px) {
+    .header__lang-links {
+        padding-right: 24px;
+    }
+}
+
+@media all and (max-width: 680px) {
+    .header__lang-links {
+        padding-right: 16px;        
+    }
 }

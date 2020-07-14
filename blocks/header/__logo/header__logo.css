@@ -1,6 +1,7 @@
 .header__logo {
     width: 176px;
-    height: 52px;    
+    height: 52px;
+    padding-left: 48px;   
 }
 
 @media all and (max-width: 680px) {

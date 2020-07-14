@@ -1,10 +1,13 @@
 .photo-grid {
+    display: flex;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 16px;
     justify-items: center;
+    width: 100%;
     max-width: 1184px;
+    margin: 0 48px;
 }
 
 @media screen and (max-width: 1080px) {
@@ -22,6 +25,7 @@
         grid-template-rows: repeat(6, 1fr);
         grid-gap: 16px;
         max-width: 720px;
+        padding: 0 24px;
     }
 }
 
