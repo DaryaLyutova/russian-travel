@@ -1,12 +1,46 @@
 .cover__overlay {
     display: flex;
     background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background: rgba(42, 44, 47, 0.4);
     width: 100%;
+    min-height: 740px;
     color: #FFFFFF;
     text-decoration: none;
 }
 
 .cover__overlay:hover {
     background: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+        min-height: 640px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .cover__overlay {
+        min-height: 480px;
+    }
+}
+
+@media all and (max-width: 680px) {
+    .cover__overlay {
+        min-height: calc(680px*480/768);
+    }
+}
+
+@media all and (max-width: 450px) {
+    .cover__overlay {
+        max-width: 450px;
+        min-height: 266px;
+    }
+
+@media all and (max-width: 320px) {
+    .cover__overlay {
+        min-height: 200px;
+    }
 }

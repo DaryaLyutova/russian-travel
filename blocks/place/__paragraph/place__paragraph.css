@@ -4,11 +4,11 @@
     line-height: 30px;
     max-width: 484px;
     text-align: left;
-    margin: 0 0 0 39px;
+    margin: 24px 0 0 39px;
 }
 
 .place__paragraph:first-of-type {
-    margin-bottom: 24px;
+    margin-top: 0;
 }
 
 
@@ -30,11 +30,7 @@
 
 @media all and (max-width: 680px) {
     .place__paragraph {
-        margin: 32px 16px 0 16px;
+        margin: 32px 0 0 16px;
         max-width: calc(320px - 16px - 16px);;
-    }
-
-    .place__paragraph + .place__paragraph {
-        margin-top: 24px;
     }
 }

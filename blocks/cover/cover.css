@@ -6,6 +6,9 @@
     width: 100%;
     max-width: 1184px;
     min-height: 740px;
+    background-image: url(../../images/cover/cover-trains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1024px) {
@@ -26,6 +29,13 @@
     .cover {
         max-width: 680px;
         min-height: calc(680px*480/768);
+    }
+}
+
+@media all and (max-width: 450px) {
+    .cover {
+        max-width: 450px;
+        min-height: 266px;
     }
 }
 

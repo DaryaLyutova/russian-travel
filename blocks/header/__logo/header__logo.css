@@ -4,9 +4,15 @@
     padding-left: 48px;   
 }
 
+@media all and (max-width: 780px) {
+    .header__logo {
+        padding-left: 24px;  
+    }
+}
 @media all and (max-width: 680px) {
     .header__logo {
         width: 142px;
-        height: 42px;         
+        height: 42px;
+        padding-left: 16px;
     }
 }

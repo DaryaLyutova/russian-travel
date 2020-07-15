@@ -1,6 +1,6 @@
 .lead__title {
     display: flex;
-    margin: 64px 0 0;
+    margin: 64px auto 0 auto;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
@@ -8,7 +8,7 @@
     max-width: 720px;
 }
 
-@media all and (max-width: 680px) {
+@media all and (max-width: 690px) {
     .lead__title {
         margin-top: 48px;
         font-size: 40px;

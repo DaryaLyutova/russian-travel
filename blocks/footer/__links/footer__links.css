@@ -1,15 +1,8 @@
 .footer__links {
     display: flex;
     flex-direction: row;
-    list-style-type: none;
     margin: 0;
-    padding: 0;
-}
-
-@media screen and (max-width: 1280px) {
-    .footer__links {
-        padding-left: 48px; 
-    }
+    padding-left: 48px;
 }
 
 @media all and (max-width: 768px) {

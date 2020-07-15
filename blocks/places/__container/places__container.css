@@ -1,0 +1,29 @@
+.places__container {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    max-width: 984px;
+    padding: 0;
+    margin: 92px 48px 92px 48px;
+}
+
+@media all and (max-width: 1024px) {
+    .places__container {
+        max-width: 928px;
+        margin: 92px 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .places__container {
+        max-width: 720px;
+        margin: 88px 0;
+    }
+}
+
+@media all and (max-width: 680px) {
+    .places__container {
+        max-width: 320px;
+        margin: 64px 0;
+    }
+}
