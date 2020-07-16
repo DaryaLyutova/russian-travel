@@ -7,4 +7,4 @@
 
 Следующим этапом необходимо сдлать переключение языков актвным.
 
-Ссылка на работу в GitHub: https://github.com/DaryaLyutova/russian-travel.
+Ссылка на работу https://daryalyutova.github.io/russian-travel/.
